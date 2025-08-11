@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Function Practise
+    </title>
+
+  </head>
+
+  <body>
+   
+
+
+    <script>
+
+      function convertToFahrenheit(celsius){
+        return (celsius *9/5) + 32;
+      }
+
+
+      function convertToCelsius(fahrenheit){
+        return (fahrenheit -32 ) * 5/9;
+
+      }
+
+
+
+      function convertTemparature(degrees, unit){
+        if (unit === 'C'){
+          const result =  convertToFahrenheit(degrees);
+          return `${result}F`;
+          } else if (unit === 'F'){
+            const result = convertToCelsius(degrees);
+            return `${result}C`;
+          }
+
+        }
+
+        console.log(convertTemparature(25, 'C'));
+        console.log(convertTemparature(86, 'F'));
+
+
+      
+
+      
+
+     
+    </script>
+  
+
+  </body>
+</html>
