@@ -1,10 +1,14 @@
 # 🛠️ js-playground
 
-![JS Playground](https://miro.medium.com/v2/resize:fit:720/format:webp/1*-tOldEbfjijxn9VqZeULqg.gif)
-
 Welcome to **js-playground** — my personal space to experiment with JavaScript! 🎉
 
 This repo is a collection of small demos, practice exercises, and experiments where I learn and explore JavaScript concepts and front-end techniques. It’s both my coding playground and a reference for future projects.
+
+---
+
+<p align="center">
+  <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*-tOldEbfjijxn9VqZeULqg.gif" width="360" alt="JS Playground" />
+</p>
 
 ---
 
