@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  </head>
+  <body>
+
+  <script>
+
+    const product1 = {
+      name: 'basketball',
+      price: 2095
+    };
+
+    const product2 = {
+      name: 'football',
+      price: 1095
+    };
+
+    function comparePrice(product1,product2){
+      if (product1.price < product2.price){
+        return product1;
+      }
+
+      else {
+        return product2;
+      }
+      
+    }
+
+    console.log(comparePrice(product1,product2));
+
+
+    function isSameProduct(product1,product2){
+      return product1.name === product2.name && product1.price === product2.price;
+
+    }
+
+    console.log(isSameProduct(product1,product2));
+
+
+    let a = 'Good Morning';
+
+    console.log(a.toUpperCase());
+
+    let b = 'test';
+
+    console.log('test'.repeat(3));
+     
+
+
+
+
+  </script>
+
+
+
+
+  </body>
+</html>
