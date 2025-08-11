@@ -1,5 +1,7 @@
 # 🛠️ js-playground
 
+![JS Playground](https://miro.medium.com/v2/resize:fit:720/format:webp/1*-tOldEbfjijxn9VqZeULqg.gif)
+
 Welcome to **js-playground** — my personal space to experiment with JavaScript! 🎉
 
 This repo is a collection of small demos, practice exercises, and experiments where I learn and explore JavaScript concepts and front-end techniques. It’s both my coding playground and a reference for future projects.
@@ -21,6 +23,9 @@ Simply clone this repo and open the HTML files in your browser to try out the co
 ```bash
 git clone https://github.com/ranjan-uprety/js-playground.git
 cd js-playground
+
+```
+
 No setup or build steps required — just open and learn!
 
 🤝 Notes
