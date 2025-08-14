@@ -78,6 +78,7 @@
 
       */
 
+      /*
 
       const nums = [1, 1, 3];
       let total = 0;
@@ -100,6 +101,96 @@
         console.log(numsDoubled);
 
       }
+
+      */
+
+      /*
+
+      const nums = [10, 20, 30];
+      nums [2] = 99;
+      console.log(nums);
+
+      function getLastValue(array) {
+        const lastIndex = array.length - 1;
+        return array[lastIndex];
+      }
+      console.log(getLastValue([1, 20, 22, 24, 5]));
+      console.log(getLastValue(['hi', 'hello', 'hey']));
+
+
+
+      function swapFirstandLast(array){
+        const lastIndex = array.length -1;
+
+        const temp = array[0];
+
+        array [0] = array[lastIndex];
+
+        array[lastIndex] = temp;
+
+        return array;
+      }
+
+      console.log(swapFirstandLast([5, 20, 30, 40, 50]));
+
+      for (let i = 2; i<=10; i++) {
+        console.log(i);
+
+      };
+
+
+
+      for (i = 5; i>=0; i--) {
+        console.log(i);
+
+      }
+        */
+
+        /*
+
+
+        function addOne(array) {
+
+        }
+
+      const array = [1, 2, 3];
+      const result = [];
+
+      for (let i =0; i<array.length; i++){
+        result.push(array[i] + 1);
+
+      }
+
+      console.log(result);
+
+      */
+
+      const array1 = [1, 2, 3];
+      const array2 = array1.slice();
+      array2.push(4);
+      console.log(array1);
+      console.log(array2);
+
+      const [firstValue, secondValue] = [1, 2, 3];
+
+      for (let i = 1; i<=10; i++){
+        if(i === 3){
+          continue;
+        }
+        console.log(i);
+        if(i === 8){
+          break;
+        }
+      }
+
+
+
+
+
+      
+
+
+
 
     </script>
 
