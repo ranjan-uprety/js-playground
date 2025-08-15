@@ -8,7 +8,25 @@
 
   <body>
 
+    <button onclick="
+      
+      " class="js-button">Click</button>
+
     <script>
+
+      const buttonElement = document.querySelector('.js-button');
+
+      const eventListener = () => {
+        console.log('click');
+      };
+
+      buttonElement.addEventListener('click', eventListener);
+
+      buttonElement.removeEventListener('click', eventListener  );
+
+       buttonElement.addEventListener('click', () => {
+        console.log('click2');
+      });
 
       /*
 
@@ -60,6 +78,8 @@
 
       */
 
+      /*
+
 
       setTimeout(function () {
         console.log('timeout');
@@ -73,7 +93,62 @@
       }, 3000);
 
       console.log('next line 2');
-   
+
+      */
+
+      /*
+
+
+      
+      [
+        'make dinner', 
+        'wash dishes',
+        'watchh youtube'
+      ].forEach( (value, index) => {
+        if (value === 'wash dishes') {
+          return;
+
+        }
+        console.log(value, index);
+
+
+      });
+
+      const regularFunction = function (param, param2) {
+        console.log('hello');
+        return 5;
+      }
+
+
+      const arrowFunction = (param, param2) => {
+        console.log('hello');
+        return 5;
+      };
+
+      arrowFunction();
+
+
+      const oneParam = param => {
+        console.log(param + 1);
+
+      };
+
+      oneParam(2);
+
+      const oneLine = () =>  2 + 3;
+      console.log(oneLine());
+
+
+      const object2 = {
+        method() {
+
+        }
+      };
+
+      */
+
+
+
 
 
     </script>
